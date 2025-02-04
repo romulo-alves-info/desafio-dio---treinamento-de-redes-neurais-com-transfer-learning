@@ -16,8 +16,8 @@ Siga os passos abaixo para configurar o ambiente e executar o código:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SeuUsuario/NomeDoRepositorio.git
-cd NomeDoRepositorio
+git clone https://github.com/romulo-alves-info/desafio-dio---treinamento-de-redes-neurais-com-transfer-learning.git
+cd desafio-dio---treinamento-de-redes-neurais-com-transfer-learning
 ```
 ### 2. Instale as dependências
 
@@ -67,16 +67,18 @@ Após configurar o ambiente e carregar o dataset, basta executar as células no 
 
 O código é implementado em Python, utilizando a biblioteca Keras com TensorFlow como backend.
 
+```markdown
 ## Estrutura do Projeto
 
 A estrutura básica do repositório é a seguinte:
 
-/NomeDoRepositorio
-|-- /PetImages                # Diretório com as imagens para treinamento
-|-- main.py                   # Script principal para treinamento e avaliação do modelo
-|-- requirements.txt          # Dependências do projeto
-|-- README.md                 # Este arquivo
-|-- /notebooks                # (Opcional) Jupyter Notebooks com exemplos e análise
+- `/NomeDoRepositorio`
+  - `/PetImages`                # Diretório com as imagens para treinamento
+  - `main.py`                   # Script principal para treinamento e avaliação do modelo
+  - `requirements.txt`          # Dependências do projeto
+  - `README.md`                 # Este arquivo
+  - `/notebooks`                # Jupyter Notebooks com exemplos e análise
+```
 
 ## Dependências
 
